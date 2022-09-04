@@ -1,0 +1,14 @@
+---
+package-as: MRTNoteImporter
+releasedir: /mnt/c/games/World of Warcraft/_classic_/Interface/AddOns/MrtNoteImporter
+enable-nolib-creation: no
+externals:
+    Libs/LibStub:
+        url: https://repos.wowace.com/wow/libstub/trunk
+    Libs/LibJSON-1.0:
+        url: https://repos.wowace.com/wow/libjson-1-0
+    
+ignore:
+    - libs/LibStub/tests
+    - libs/LibStub/LibStub.toc
+    - libs/LibJSON-1.0/LibJSON-1.0.toc
