@@ -84,7 +84,6 @@ function MRTNI:ConvertMRTNotesToInput(editbox)
         editbox:SetText("Cannot read notes. Please update notes in /mrt, or paste JSON here to set mrt notes.")
         return
     end
-    print(#VMRT.Note.BlackNames)
     local i = 0
     local t = {}
     for _ in pairs(VMRT.Note.BlackNames) do
