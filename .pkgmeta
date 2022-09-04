@@ -1,6 +1,5 @@
 ---
 package-as: MRTNoteImporter
-releasedir: /mnt/c/games/World of Warcraft/_classic_/Interface/AddOns/MrtNoteImporter
 enable-nolib-creation: no
 externals:
     Libs/LibStub:
