@@ -6,7 +6,7 @@ Simple WoW Addon for importing MRT notes into the game.
 Get it from all good wow addon providers !
 
 - [Curseforge Link](https://www.curseforge.com/wow/addons/mrtnoteimporter)
-- [WoWInterface Link](https://www.wowinterface.com/downloads/info26398-MRTNoteImporter.htm)
+- [WoWInterface Link](https://www.wowinterface.com/downloads/info26398-MRTNoteImporter.html)
 - [Wago Link](https://addons.wago.io/addons/mrtnoteimporter)
 
 Or directly from the releases here on github.
