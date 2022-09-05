@@ -41,3 +41,4 @@ luac.out
 
 # Package directory
 .package/
+.release/
