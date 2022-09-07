@@ -30,3 +30,5 @@ For example
  "3 - Maexxna": "Kill big spider thing"
 }
 ```
+
+You can also click the "Fetch Notes" button to export the notes you currently have in MRT in the same format.
