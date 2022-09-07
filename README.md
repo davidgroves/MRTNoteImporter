@@ -25,7 +25,7 @@ In game, run `/mrtni`, and paste JSON into the window. The JSON should be format
 For example
 ```
 {
- "1 - Anub": "Kill big undead thing",
+ "1 - Anub": "Kill big undead thing\nAnother link about the undead thing.",
  "2 - Grand Widow": "Kill woman and worshipers",
  "3 - Maexxna": "Kill big spider thing"
 }
