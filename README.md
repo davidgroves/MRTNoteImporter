@@ -1,5 +1,5 @@
 # MRTNoteImporter
-Simple WoW Addon for importing MRT notes into the game.
+Simple WoW Addon for importing [Method Raid Tools](https://www.curseforge.com/wow/addons/method-raid-tools) notes into the game.
 
 # Just using it.
 
