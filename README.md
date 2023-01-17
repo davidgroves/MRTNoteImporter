@@ -18,7 +18,8 @@ In game, run `/mrtni`, and paste JSON into the window. The JSON should be format
 ```
 {
  "NoteName1": "This is the first note",
- "NoteName2": "This is the second note"
+ "NoteName2": "This is the second note",
+ "NoteName3": "This is the third note\nWith a linebreak\nAnd another one"
 }
 ```
 
