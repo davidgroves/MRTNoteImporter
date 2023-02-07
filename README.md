@@ -17,18 +17,22 @@ In game, run `/mrtni`, and paste JSON into the window. The JSON should be format
 
 ```
 {
- "NoteName1": "This is the first note",
- "NoteName2": "This is the second note",
- "NoteName3": "This is the third note\nWith a linebreak\nAnd another one"
+ "notes": { 
+   "NoteName1": "This is the first note",
+   "NoteName2": "This is the second note",
+   "NoteName3": "This is the third note\nWith a linebreak\nAnd another one"
+  }
 }
 ```
 
 For example
 ```
 {
- "1 - Anub": "Kill big undead thing\nAnother line about the undead thing.",
- "2 - Grand Widow": "Kill woman and worshipers",
- "3 - Maexxna": "Kill big spider thing"
+  "notes": {
+    "1 - Anub": "Kill big undead thing\nAnother line about the undead thing.",
+    "2 - Grand Widow": "Kill woman and worshipers",
+    "3 - Maexxna": "Kill big spider thing"
+  }
 }
 ```
 
