@@ -1,4 +1,4 @@
-## Interface: 30400
+## Interface: 30401
 ## Title: MRTNoteImporter
 ## Author: David Groves
 ## Notes: Imports notes into Method Raid Tools from a single JSON document
