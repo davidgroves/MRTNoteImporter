@@ -6,8 +6,9 @@ externals:
         url: https://repos.wowace.com/wow/libstub/trunk
     Libs/LibJSON-1.0:
         url: https://repos.wowace.com/wow/libjson-1-0
-    
+        
 ignore:
     - libs/LibStub/tests
     - libs/LibStub/LibStub.toc
     - libs/LibJSON-1.0/LibJSON-1.0.toc
+    - libs/LibBase64-1.0/LibBase64-1.0.toc

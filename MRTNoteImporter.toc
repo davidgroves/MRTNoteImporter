@@ -9,4 +9,5 @@
 
 Libs/LibStub/LibStub.lua
 Libs/LibJSON-1.0/LibJSON-1.0.lua
+LibBase64.lua
 MRTNoteImporter.lua
