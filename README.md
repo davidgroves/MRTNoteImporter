@@ -32,4 +32,7 @@ For example
 }
 ```
 
+Alternatively, it can be a Base64 encoding of the JSON, if the "Base64" checkbox is selected (which is the default). So importing. `ewogICAgIjEgLSBBbnViIjogIktpbGwgYmlnIHVuZGVhZCB0aGluZ1xuQW5vdGhlciBsaW5lIGFib3V0IHRoZSB1bmRlYWQgdGhpbmcuIiwKICAgICIyIC0gR3JhbmQgV2lkb3ciOiAiS2lsbCB3b21hbiBhbmQgd29yc2hpcGVycyIsCiAgICAiMyAtIE1hZXh4bmEiOiAiS2lsbCBiaWcgc3BpZGVyIHRoaW5nIgp9
+` is the same as the example above.
+
 You can also click the "Fetch Notes" button to export the notes you currently have in MRT in the same format.
