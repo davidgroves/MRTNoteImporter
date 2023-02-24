@@ -26,13 +26,13 @@ In game, run `/mrtni`, and paste JSON into the window. The JSON should be format
 For example
 ```
 {
-    "1 - Anub": "Kill big undead thing\nAnother line about the undead thing.",
-    "2 - Grand Widow": "Kill woman and worshipers",
-    "3 - Maexxna": "Kill big spider thing"
+    "Flame Leviathan": "Kill robot tank thing",
+    "Razorscale": "Kill dwarves.\nThen dragon.",
+    "Ingis": "Kill big fire thing."
 }
 ```
 
 Alternatively, it can be a Base64 encoding of the JSON, if the "Base64" checkbox is selected (which is the default). So importing. `ewogICAgIjEgLSBBbnViIjogIktpbGwgYmlnIHVuZGVhZCB0aGluZ1xuQW5vdGhlciBsaW5lIGFib3V0IHRoZSB1bmRlYWQgdGhpbmcuIiwKICAgICIyIC0gR3JhbmQgV2lkb3ciOiAiS2lsbCB3b21hbiBhbmQgd29yc2hpcGVycyIsCiAgICAiMyAtIE1hZXh4bmEiOiAiS2lsbCBiaWcgc3BpZGVyIHRoaW5nIgp9
-` is the same as the example above.
+` is the similar to the example above.
 
 You can also click the "Fetch Notes" button to export the notes you currently have in MRT in the same format.
