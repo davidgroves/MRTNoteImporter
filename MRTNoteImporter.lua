@@ -51,13 +51,13 @@ local function showFrame()
     local setbutton = AceGUI:Create("Button")
     setbutton:SetText("Set Notes")
     setbutton:SetWidth(100)
-    setbutton:SetCallback("OnClick", function() MRTNI:ConvertInputToMRTNotes(textStore, frame, base64:GetValue()); end)
+    setbutton:SetCallback("OnClick", function() MRTNI:ConvertInputToMRTNotes(textStore, frame); end)
     frame:AddChild(setbutton)
 
     local fetchbutton = AceGUI:Create("Button")
     fetchbutton:SetText("Fetch Notes")
     fetchbutton:SetWidth(100)
-    fetchbutton:SetCallback("OnClick", function() MRTNI:ConvertMRTNotesToInput(editbox, base64:GetValue()); end)
+    fetchbutton:SetCallback("OnClick", function() MRTNI:ConvertMRTNotesToInput(editbox); end)
     frame:AddChild(fetchbutton)
     end
 
@@ -102,7 +102,7 @@ function MRTNI:ConvertInputToMRTNotes(t, frame)
     end
 end
 
-function MRTNI:ConvertMRTNotesToInput(editbox, base64)
+function MRTNI:ConvertMRTNotesToInput(editbox)
     if #VMRT.Note.BlackNames == 0 then
         editbox:SetText("Cannot read notes. Please update notes in /mrt, or paste JSON here to set mrt notes.")
         return
