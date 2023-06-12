@@ -43,10 +43,10 @@ local function showFrame()
     editbox:SetCallback("OnTextChanged", function(widget, event, text) textStore = text end)
     frame:AddChild(editbox)
 
-    local base64 = AceGUI:Create("CheckBox")
-    base64:SetLabel("Base64")
-    base64:SetValue(true)
-    frame:AddChild(base64)
+    -- local base64 = AceGUI:Create("CheckBox")
+    -- base64:SetLabel("Base64")
+    -- base64:SetValue(true)
+    -- frame:AddChild(base64)
 
     local setbutton = AceGUI:Create("Button")
     setbutton:SetText("Set Notes")
@@ -65,7 +65,13 @@ function MRTNI:ChatCommand()
     showFrame()
 end
 
-function MRTNI:ConvertInputToMRTNotes(t, frame, base64)
+function MRTNI:ConvertInputToMRTNotes(t, frame)
+
+    -- Check if we go a JSON note or not. JSON notes always start with { and end in }
+    local base64 = true
+    if (string.sub(t, 1, 1) == "{") and (string.sub(t, -1, -1) == "}") then
+        base64 = false
+    end
 
     -- Delete the existing notes
     VMRT.Note.Black = {}
