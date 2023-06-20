@@ -1,0 +1,17 @@
+## Interface: 11403
+## Interface-Wrath: 30402
+## Interface-Classic: 11403
+## Title: MRTNoteImporter
+## Author: David Groves
+## Notes: Imports notes into Method Raid Tools from a single JSON document
+## X-Curse-Project-ID: 664617
+## X-WoWI-ID: 25548
+## X-Wago-ID: R4N2DVKL
+## DefaultState: enabled
+## Version: 1.0.4
+## X-License: MIT
+
+Libs/LibStub/LibStub.lua
+Libs/LibJSON-1.0/LibJSON-1.0.lua
+LibBase64.lua
+MRTNoteImporter.lua
