@@ -1,6 +1,12 @@
 # MRTNoteImporter
 Simple WoW Addon for importing [Method Raid Tools](https://www.curseforge.com/wow/addons/method-raid-tools) notes into the game.
 
+I no longer have anyone in my household that plays WoW, so updates will be sporadic.
+
+Please raise/upvote a github issue if this breaks, and I will try and find a way to get access to a wow account again to fix it.
+
+If the TOC just needs an update for a new patch, please raise a pull request if you know what to change, or raise a github issue with the ingame output from `/dump select(4, GetBuildInfo())` so I know what TOC number to bump to.
+
 # Video and Examples.
 
 See the [Joardee Video](https://www.youtube.com/watch?v=2S73R7HliIg) on Assignment sheets for a usage example, as well a set
@@ -50,4 +56,3 @@ You should export them first if you want to preserve them.
 
 Options for feedback include.
 - Raise a Github issue or Pull request.
-- Find me as Pumpkin on [Joardee's Discord](https://discord.gg/V6PeJRav5n) 
