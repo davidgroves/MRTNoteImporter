@@ -1,4 +1,5 @@
 ## Interface: 30402
+## Interface-
 ## Interface-Wrath: 30402
 ## Interface-Classic: 11403
 ## Title: MRTNoteImporter
@@ -8,7 +9,7 @@
 ## X-WoWI-ID: 25548
 ## X-Wago-ID: R4N2DVKL
 ## DefaultState: enabled
-## Version: 1.0.4
+## Version: 1.0.5
 ## X-License: MIT
 
 Libs/LibStub/LibStub.lua
